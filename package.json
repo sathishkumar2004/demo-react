@@ -1,20 +1,13 @@
 {
   "name": "my-vercel-demo",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "chmod +x node_modules/.bin/vite"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "vite": "^5.4.0",
-    "@vitejs/plugin-react": "^4.2.0"
+    "vite": "^5.4.0"
   }
 }
-
-
