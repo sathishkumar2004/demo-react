@@ -1,17 +1,6 @@
 {
-  "name": "my-vercel-demo",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "npx vite build",
-    "postinstall": "npx chmod +x ./node_modules/.bin/vite || true"
-  },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "vite": "^5.4.0",
-    "@vitejs/plugin-react": "^4.3.0"
-  }
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install --ignore-scripts"
 }
